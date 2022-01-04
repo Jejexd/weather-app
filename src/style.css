@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  background: white;
+  font-size: 120%;
+  height: 100vh;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+.sun {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
+h1 {
+  font-size: 25px;
+  text-align: center;
+  color: black;
+}
+h2 {
+  color: black;
+  font-size: 25px;
+  position: relative;
+  top: 25px;
+}
+.card {
+  background: lightskyblue;
+  color: white;
+  padding: 2em;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 480px;
+  margin: 200px;
+}
+
+.container {
+  border-radius: 100px;
+  color: black;
+  margin: 0%;
+  padding: 25px;
+  border-color: white;
+  font-size: 17px;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 44px;
+  width: 44px;
+  outline: none;
+  background: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background: #7c7c7c6b;
+}
+input.bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: white;
+  color: black;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100% - 100px);
+}
+.time {
+  text-align: end;
+  margin-top: 0;
+  position: relative;
+  top: -10px;
+  color: black;
+}
+.rounded-circle {
+  text-align: justify;
+  font-size: 15px;
+}
+.units {
+  position: relative;
+  top: -34px;
+}
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+}
