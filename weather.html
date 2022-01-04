@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+      <form class="search-form" id="search-form">
+    <div class="card">
+      <div class="search" type="submit"
+      value="Search">
+        <input type="text" class="bar" placeholder="Search City"  id="city-input" />
+       <button> <div class= "bi bi-search"> 
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+</svg> </button>
+      </div>
+      <h2 id="city"> 
+          San Antonio
+      </h2>
+<div class="time" id="date"></div>
+
+        <img class="sun" src="images/sunny.png" alt="Sunny" />
+        <div class="loading">
+          <span class="temperature" id="temperature">26</span
+        </div>
+        <span class="units">
+          <a href="#" id="celsius-link">°C</a> |
+          <a href="#" id="fahrenheit-link">°F</a>
+        </span>
+        <div class="container">
+      <div class="row">
+  <div class="col">Sun 24°C</div>
+  <div class="col">Sat 26°C</div>
+  <div class="col">Mon 23°C</div>
+  <div class="col">Tue 22°C</div>
+  <div class="col">Wed 25°C</div>
+  </div>
+<br>
+<br>
+  <div class="rounded-circle">
+ <div class="humidity">Humidity: 77%</div>
+ <div class="Visibility">Visibility: 10 mi</div>
+ <div class="UV index">UV index: Low</div>
+        </div>      
+          <script src="src/app.js"></script> 
+  </body>
+</html>
