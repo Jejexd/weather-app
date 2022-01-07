@@ -74,7 +74,7 @@ input.bar {
   margin-top: 0;
   position: relative;
   top: -10px;
-  color: black;
+  color: rgb(33, 33, 33);
 }
 .rounded-circle {
   text-align: justify;
@@ -86,14 +86,12 @@ input.bar {
 }
 .units {
   position: relative;
-  top: -34px;
+  top: -35px;
 }
 .temperature {
-  color: rgb(33, 33, 33);
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
-  font-size: 25px;
-  text-align: center;
-  color: black;
+  font-size: 64px;
+  color: rgb(33, 33, 33);
 }
