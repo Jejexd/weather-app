@@ -2,8 +2,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0%;
-  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  margin: 30px auto;
+  font-family: "Irish Grover", cursive;
   background: white;
   font-size: 120%;
   height: 100vh;
@@ -18,13 +18,9 @@ body {
   margin: 0 auto;
   width: 150px;
 }
-h1 {
-  font-size: 25px;
-  text-align: center;
-  color: black;
-}
+
 h2 {
-  color: black;
+  color: rgb(135, 135, 135);
   font-size: 25px;
   position: relative;
   top: 25px;
@@ -83,7 +79,11 @@ input.bar {
 }
 .rounded-circle {
   text-align: justify;
-  font-size: 15px;
+  font-size: 17px;
+  color: rgb(134, 114, 114);
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
 }
 .units {
   position: relative;
