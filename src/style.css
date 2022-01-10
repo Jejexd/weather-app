@@ -2,16 +2,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px auto;
-  font-family: "Roboto Condensed", sans-serif;
-  background: white;
-  font-size: 120%;
-  height: 100vh;
-  position: fixed;
-  right: 0px;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
 }
 .sun {
   display: block;
@@ -29,9 +19,9 @@ h2 {
   color: white;
   padding: 2em;
   border-radius: 50px;
-  width: 100%;
-  max-width: 480px;
-  margin: 200px;
+  max-width: 600px;
+  margin: 0px auto;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .container {
