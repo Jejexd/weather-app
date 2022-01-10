@@ -10,12 +10,12 @@ body {
 }
 
 h2 {
-  color: rgb(135, 135, 135);
+  color: #32292f;
   position: relative;
   padding: 20px;
 }
 .card {
-  background: lightskyblue;
+  background: #4e8de2;
   color: white;
   padding: 2em;
   border-radius: 50px;
@@ -37,13 +37,11 @@ button {
   margin: 0.5em;
   border-radius: 50%;
   border: none;
-  height: 44px;
-  width: 44px;
-  outline: none;
+  height: 55px;
+  width: 60px;
   background: white;
   color: black;
   cursor: pointer;
-  transition: 0.2s ease-in-out;
 }
 button:hover {
   background: #7c7c7c6b;
@@ -69,7 +67,7 @@ input.bar {
 .rounded-circle {
   text-align: justify;
   font-size: 17px;
-  color: rgb(134, 114, 114);
+  color: #32292f;
   font-weight: 100;
   padding: 0;
   margin: 0;
@@ -77,6 +75,7 @@ input.bar {
 .units {
   position: relative;
   top: -35px;
+  color: #32292f;
 }
 .temperature {
   font-size: 64px;
