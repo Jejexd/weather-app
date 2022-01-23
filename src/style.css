@@ -1,23 +1,29 @@
-.icon {
-  width: 150px;
+.weather-icon img {
   display: block;
-  margin: auto;
+  margin: 0 auto;
+  width: 150px;
+  top: -30px;
 }
 h2 {
   color: #32292f;
   text-align: center;
   padding: 20px;
+  font-size: 35px;
 }
 .card {
-  background: linear-gradient(-225deg, #b6cee8 0%, #f578dc 100%);
+  background: linear-gradient(
+    104.3deg,
+    rgb(253, 243, 243) 10.9%,
+    rgb(248, 231, 231) 27.8%,
+    rgb(160, 112, 161) 101.7%
+  );
   padding: 2em;
   border-radius: 15px;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 35px auto;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px;
-  display: block;
-  border-color: purple;
+  border-color: black;
+  color: #393737;
 }
 
 button {
@@ -45,11 +51,11 @@ input.bar {
   width: calc(100% - 100px);
 }
 .time {
-  text-align: left;
+  text-align: end;
   margin-top: 0;
   position: relative;
   top: -10px;
-  color: rgb(33, 33, 33);
+  color: black;
 }
 .rounded-circle {
   text-align: justify;
@@ -59,13 +65,7 @@ input.bar {
   padding: 0;
   margin: 0;
 }
-.temperature {
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 1;
-  font-size: 64px;
-  color: rgb(33, 33, 33);
-}
+
 li {
   list-style: none;
   color: #32292f;
@@ -73,4 +73,21 @@ li {
 
 li:first-letter {
   text-transform: capitalize;
+}
+.loading {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 64px;
+  color: rgb(33, 33, 33);
+}
+.units {
+  position: relative;
+  font-size: 20px;
+  right: -260px;
+  top: -38px;
+}
+.description {
+  font-size: 18px;
 }
