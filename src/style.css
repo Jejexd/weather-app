@@ -1,29 +1,23 @@
 .weather-icon img {
   display: block;
   margin: 0 auto;
-  width: 150px;
+  width: 155px;
   top: -30px;
 }
 h1 {
-  color: #492540;
+  color: #fefdfe;
   text-align: center;
-  padding: 20px;
+  padding: 16px;
   font-size: 35px;
 }
 .card {
-  background: linear-gradient(
-    104.3deg,
-    rgb(253, 243, 243) 10.9%,
-    rgb(248, 231, 231) 27.8%,
-    rgb(160, 112, 161) 101.7%
-  );
-  padding: 2em;
+  background: #b48cb8;
+  padding: 3em;
   border-radius: 15px;
-  max-width: 500px;
+  max-width: 450px;
   margin: 35px auto;
   font-family: "Roboto Condensed", sans-serif;
   border-color: black;
-  color: #393737;
 }
 
 button {
@@ -34,7 +28,7 @@ button {
   width: 60px;
   background: white;
   color: black;
-  cursor: pointer;
+  cursor: grab;
 }
 button:hover {
   background: #6c567b;
@@ -53,10 +47,20 @@ input.bar {
 input.bar:hover {
   background: #6d6087;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 li {
   list-style: none;
-  color: #60316e;
+  color: #fefdfe;
   text-align: right;
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 19px;
 }
 
 li:first-letter {
@@ -68,11 +72,24 @@ li:first-letter {
   font-weight: 400;
   line-height: 1;
   font-size: 64px;
-  color: rgb(33, 33, 33);
+  color: #fefdfe;
 }
-.units {
+
+.weather-temperature .units {
   position: relative;
-  font-size: 15px;
-  right: -249px;
-  top: -35px;
+  font-size: 20px;
+  top: -34px;
+  left: 220px;
+}
+
+.weather-temperature .active {
+  color: #fefdfe;
+  cursor: default;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #fefdfe;
+}
+.weather-forecast-date {
 }
