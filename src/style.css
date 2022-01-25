@@ -11,7 +11,7 @@ h1 {
   font-size: 35px;
 }
 .card {
-  background: #b48cb8;
+  background: #b87392;
   padding: 3em;
   border-radius: 15px;
   max-width: 450px;
@@ -92,4 +92,8 @@ li:first-letter {
   color: #fefdfe;
 }
 .weather-forecast-date {
+  font-size: 16px;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
