@@ -5,7 +5,7 @@
   top: -30px;
 }
 h1 {
-  color: #fefdfe;
+  color: #613864;
   text-align: center;
   margin: 22px;
   font-size: 35px;
@@ -58,7 +58,7 @@ ul {
 
 li {
   list-style: none;
-  color: #fefdfe;
+  color: #613864;
   text-align: right;
   font-size: 17px;
   top: 25px;
@@ -72,17 +72,17 @@ li:first-letter {
   font-weight: 400;
   line-height: 2;
   font-size: 64px;
-  color: #fefdfe;
+  color: #613864;
 }
 
 .weather-forecast {
   margin-top: 15px;
   text-align: center;
-  color: #fefdfe;
+  color: #613864;
 }
 
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 15px;
   opacity: 0.7;
 }
 
