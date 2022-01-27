@@ -12,10 +12,13 @@
 }
 
 .card {
-  background: linear-gradient(
-    109.6deg,
-    rgb(177, 173, 219) 11.2%,
-    rgb(245, 226, 226) 91.1%
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
   );
   padding: 1em;
   border-radius: 25px;
@@ -27,10 +30,10 @@
 
 button {
   margin: 0.5em;
-  border-radius: 50%;
+  border-radius: 45%;
   border: none;
-  height: 55px;
-  width: 60px;
+  height: 45px;
+  width: 45px;
   background: white;
   color: black;
   cursor: grab;
@@ -82,8 +85,8 @@ li:first-letter {
 }
 
 .weather-forecast-date {
-  font-size: 15px;
-  opacity: 0.7;
+  font-size: 16px;
+  opacity: 0.8;
 }
 
 .weather-forecast-temperatures {
@@ -94,4 +97,9 @@ li:first-letter {
   font-size: 20px;
   top: -34px;
   left: 255px;
+}
+p {
+  text-align: center;
+  color: #6d6087;
+  font-size: 25px;
 }
